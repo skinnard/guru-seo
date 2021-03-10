@@ -22,7 +22,9 @@ module.exports = {
     },
   },
   variants: {},
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms')
+  ],
   purge: process.env.NODE_ENV === 'production' ? {
     enabled: true,
     content: ['src/**/*.njk', 'src/**/*.js'],
