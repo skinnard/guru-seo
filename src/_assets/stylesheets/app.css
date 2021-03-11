@@ -9,10 +9,6 @@
     outline-offset: 4px;
 }
 
-a {
-	@apply text-ws-blue-500 underline;
-}
-
 .rocket {
 	animation: rocket 0.7s linear infinite both;
 }
